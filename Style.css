@@ -1,12 +1,69 @@
-h1,h2,h3,h4{
-	color:Green;
+body{
+	background color:white;
+	background-repeat:no-repeat;
+	background-size:cover;
+	
+}
+*{
+	background-color:#040028;
+}
+h1,h2,h3,h4,h5,h6{
+	color:white;
 	font-family:"Alegreya SC";
 	
 }
 h1{
-	color:black;
+	color:#e31c56;
+}
+h3{
+	font-size:120%;
 }
 
 p{
-	font-family:"Tenor Sans";
+	color: white;
+	font-size:120%;
+	
+}
+	
+
+h1.wlm{
+    color:#e31c56 ;
+    font-size: 50px;
+    font-weight: bold;
+}
+ul {
+	color: white;
+	padding-right: -50em;
+}
+a {
+	color: pink;
+	text-decoration: none;
+}
+div.box {
+	border: 1px solid white;
+	width: 60%;
+	hight: 50%;
+}
+p.he{
+	color:pink;
+	text-align:center;
+	font-size:200%;
+}
+ul.f{
+	font-size:130%
+}
+
+section.hero {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	
+}
+img{
+	margin-top:50px;
+	margin-right:50px;
+}
+#Inba{
+	font-size:30px;
 }
