@@ -1,54 +1,65 @@
-body{
-	background color:white;
-	background-repeat:no-repeat;
-	background-size:cover;
-	
-}
 *{
 	background-color:#040028;
+	margin:10px;
+}
+
+header.top{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
 }
 h1,h2,h3,h4,h5,h6{
 	color:white;
 	font-family:"Alegreya SC";
-	
 }
+
 h1{
 	color:#e31c56;
 }
+
 h3{
-	font-size:120%;
+	font-size:130%;
 }
 
 p{
-	color: white;
+	color:#a8d1a7;
 	font-size:120%;
-	
+	font-family:sans-serif;
+	line-height: 1.6;
+	word-spacing:1px;
+	text-indent:50px;
+	text-align:justify;
 }
-	
 
 h1.wlm{
     color:#e31c56 ;
     font-size: 50px;
     font-weight: bold;
 }
-ul {
+
+ul{
 	color: white;
-	padding-right: -50em;
+
 }
-a {
+
+a{
 	color: pink;
 	text-decoration: none;
 }
+
 div.box {
 	border: 1px solid white;
-	width: 60%;
+	width: 50%;
 	hight: 50%;
 }
-p.he{
+
+p.cnt{
 	color:pink;
 	text-align:center;
 	font-size:200%;
 }
+
 ul.f{
 	font-size:130%
 }
@@ -57,13 +68,14 @@ section.hero {
 	display:flex;
 	flex-direction:row;
 	flex-wrap:wrap;
-	justify-content:space-between;
-	
+	justify-content:space-between;	
 }
+
 img{
 	margin-top:50px;
-	margin-right:50px;
+	margin-right:20px;
 }
+
 #Inba{
 	font-size:30px;
 }
